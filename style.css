@@ -2,12 +2,19 @@ body {
     background-image: url('country-quilt.png');
 }
 
-/* This turns the button pink on hover! Border color matches border color from bootstrap's css so it doesn't clash. */
-.btn-primary:hover {
+/* This keeps all the buttons the same color. */
+.btn {
+    border: 0px;
+    background-color: #eb6864;
+}
+
+/* This turns the buttons pink on hover! Border color matches border color from bootstrap's css so it doesn't clash. */
+.btn:hover, .btn-primary:hover, .btn-secondary:hover {
     background-color: pink;
     color: black;
     border: 1px;
     border-color: #aaa;
+    padding: 6px 16px;
 }
 
 img {
