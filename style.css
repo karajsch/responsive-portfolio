@@ -1,0 +1,15 @@
+body {
+    background-image: url("/imgs/qbkls.png");
+}
+
+/* This turns the button pink on hover! Border color matches border color from bootstrap's css so it doesn't clash. */
+.btn-primary:hover {
+    background-color: pink;
+    color: black;
+    border: 1px;
+    border-color: #aaa;
+}
+
+img {
+    padding: 10px;
+}
