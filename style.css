@@ -14,8 +14,13 @@ img {
     padding: 10px;
 }
 
-/* This makes the background of the main container white so text is easier to read! */
+/* This makes the background of the main container white which makes the text is easier to read! */
 .container-sm {
     background-color: white;
-    padding: 10px;
+    padding: 20px;
+    border-color: #aaa;
+}
+
+.socials {
+    text-align: center;
 }
