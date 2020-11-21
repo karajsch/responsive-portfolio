@@ -6,19 +6,17 @@ body {
 .btn {
     border: 0px;
     background-color: #eb6864;
+    color: white;
 }
 
-/* This turns the buttons pink on hover! Border color matches border color from bootstrap's css so it doesn't clash. */
-.btn:hover, .btn-primary:hover, .btn-secondary:hover {
+/* This turns the buttons pink on hover as well as gets rid of the underline. Border color/padding matches bootstrap's css so it doesn't clash. */
+.btn:hover {
     background-color: pink;
     color: black;
+    text-decoration: none;
     border: 1px;
     border-color: #aaa;
     padding: 6px 16px;
-}
-
-img {
-    padding: 10px;
 }
 
 /* This makes the background of the main container white which makes the text is easier to read! */
@@ -26,4 +24,8 @@ img {
     background-color: white;
     padding: 20px;
     border-color: #aaa;
+}
+
+img {
+    padding: 10px;
 }
