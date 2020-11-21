@@ -1,5 +1,5 @@
 body {
-    background-image: url("/imgs/qbkls.png");
+    background-image: url('country-quilt.png');
 }
 
 /* This turns the button pink on hover! Border color matches border color from bootstrap's css so it doesn't clash. */
@@ -11,5 +11,11 @@ body {
 }
 
 img {
+    padding: 10px;
+}
+
+/* This makes the background of the main container white so text is easier to read! */
+.container-sm {
+    background-color: white;
     padding: 10px;
 }
