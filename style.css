@@ -1,6 +1,16 @@
 body {
     background-image: url('country-quilt.png');
+    height: 100%;
 }
+
+#page-content {
+    flex: 1 0 auto;
+  }
+
+#sticky-footer {
+    flex-shrink: none;
+  }
+
 
 /* This keeps all the buttons the same color. */
 .btn {
@@ -17,15 +27,4 @@ body {
     border: 1px;
     border-color: #aaa;
     padding: 6px 16px;
-}
-
-/* This makes the background of the main container white which makes the text is easier to read! */
-.container-sm {
-    background-color: white;
-    padding: 20px;
-    border-color: #aaa;
-}
-
-img {
-    padding: 10px;
 }
