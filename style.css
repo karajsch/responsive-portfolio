@@ -1,30 +1,35 @@
 body {
-    background-image: url('country-quilt.png');
-    height: 100%;
+  background-image: url("country-quilt.png");
+  height: 100%;
 }
 
 #page-content {
-    flex: 1 0 auto;
-  }
+  flex: 1 0 auto;
+}
 
 #sticky-footer {
-    flex-shrink: none;
-  }
-
+  flex-shrink: none;
+}
 
 /* This keeps all the buttons the same color. */
 .btn {
-    border: 0px;
-    background-color: #eb6864;
-    color: white;
+  border: 0px;
+  background-color: #eb6864;
+  color: white;
 }
 
 /* This turns the buttons pink on hover as well as gets rid of the underline. Border color/padding matches bootstrap's css so it doesn't clash. */
 .btn:hover {
-    background-color: pink;
-    color: black;
-    text-decoration: none;
-    border: 1px;
-    border-color: #aaa;
-    padding: 6px 16px;
+  background-color: pink;
+  color: black;
+  text-decoration: none;
+  border: 1px;
+  border-color: #aaa;
+  padding: 6px 16px;
+}
+
+@media screen and (max-width: 168px) {
+  body {
+    font-size: normal;
+  }
 }
