@@ -32,4 +32,10 @@ body {
   body {
     font-size: large;
   }
+
+  .container {
+    /* container size for smaller screens should be whole width of screen */
+    width: 100%;
+    padding: 20px;
+  }
 }
