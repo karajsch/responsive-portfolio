@@ -30,6 +30,6 @@ body {
 
 @media screen and (max-width: 168px) {
   body {
-    font-size: normal;
+    font-size: large;
   }
 }
