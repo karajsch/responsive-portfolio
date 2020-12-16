@@ -1,0 +1,86 @@
+body {
+  background: rgb(252, 230, 230);
+  margin: 5%;
+  color: rgb(87, 54, 54);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: rgb(67, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(138, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar {
+  background: rgb(255, 117, 117);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  border: 1px solid rgb(199, 142, 142);
+  background: transparent;
+}
+
+h1 {
+  font-size: 36px;
+  color: rgb(135, 83, 83);
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.container-quote {
+  border-radius: 3px;
+  border: dashed 1px rgb(135, 83, 83);
+  width: 75%;
+  align-content: space-around;
+  align: center;
+  font-size: 16px;
+}
+
+#icons,
+#contactform,
+.card {
+  background: rgb(230, 207, 207);
+}
+
+#icons {
+  text-align: left;
+  font-size: 14px;
+  padding: 20px;
+  width: 220px;
+  max-width: 220px;
+  display: block
+}
+
+#me {
+  border: dashed 1px rgb(135, 83, 83);
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  border: solid 1px rgb(135, 83, 83);
+  color: rgb(87, 54, 54);
+  background-color: rgb(255, 117, 117);
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+}

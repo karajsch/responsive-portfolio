@@ -1,79 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <head>
     <title>Kara Schmidt</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrappy-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-
+    <!--Work Sans Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <!--Native CSS-->
+    <link rel="stylesheet" href="assets/style.css">
 </head>
+<!--Font Awesome-->
 <script src="https://use.fontawesome.com/bec0d899fe.js"></script>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">Kara Schmidt</a>
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg">
+        Kara Schmidt
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
         </button>
-        <navbar class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <button class="btn btn-primary navbar-btn" onclick="window.location.href='portfolio.html'"><i
-                    class="fa fa-th" aria-hidden="true"></i> Portfolio</button>
-            <button class="btn btn-secondary navbar-btn" onclick="window.location.href='contact.html'"><i
-                    class="fa fa-envelope" aria-hidden="true"></i> Contact</button>
-        </navbar>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
+        <!--Navbar End-->
     </nav>
-
     <main>
-        <p></p>
-        <section class="row p-3">
-            <section class="col-sm-12 col-lg-8 p-3">
-                <section class="container-sm bg-light">
-                    <h1>About Me</h1>
-                    <img src="k-square.jpg" class="p-2 m-0 img-responsive float-left" alt="...">
-                    <p class="text-justify font-weight-light">
-                        I am an aspiring web developer based in Philadelphia. I'm originally from Doylestown, PA but
-                        lived in NYC for 10
-                        years prior to moving to Philadelphia. I'm obsessed with all things art and design and love
-                        playing with modular synthesizers, reading sci-fi novels, collecting houseplants, and 35mm photography. I
-                        have a BFA in Film/Cinema Studies from Pratt Institute and an MFA in Digital & Interdisciplinary
-                        Practice from CUNY. I draw and do yoga every single day.
-                    </p>
-                    <p class="text-justify font-weight-light">
-                        "Most creativity is a transition from one context into another where things are more surprising. There’s an element of surprise, and especially in science, there is often laughter that goes along with the “Aha.” Art also has this element. Our job is to remind us that there are more contexts than the one that we’re in — the one that we think is reality." - Alan Kay
-                    </p>
-                    <button class="btn btn-link social-btn"
-                        onclick="window.location.href='https://github.com/karajsch'"><i class="fa fa-github fa-lg"
-                            aria-hidden="true"></i> Github</a></button>
-                    <button class="btn btn-link social-btn"
-                        onclick="window.location.href='https://www.linkedin.com/in/kara-schmidt-323aba1b0/'"><i
-                            class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
-                        LinkedIn</a></button>
-                        <p></p>
-                </section>
-                <section class="col-lg-4">
-                </section>
+        <section class="row">
+            <section class="container-fluid col-5 sm-col-5 p-4">
+                <img src="imgs/itsme-small.png" id="me" alt="A picture of me - hello." class="align-center mb-4">
+                <div id="icons">
+                    <h2>Connect With Me</h2>
+                    <p><a href="mailto: karaiscoding@gmail.com"><i class="fa fa-share" aria-hidden="true"></i>
+                            karaiscoding@gmail.com</a></p>
+
+                    <p><a href="assets/Kara_Schmidt_Res_12_15_2020.pdf" target="_new"><i class="fa fa-file-text-o"
+                                aria-hidden="true"></i>
+                            Resume.PDF</a></p>
+
+                    <p><a href="https://github.com/karajsch" target="_new"><i class="fa fa-github fa-lg"
+                                aria-hidden="true"></i> Github</a></p>
+
+
+                    <p><a href="https:///www.linkedin.com/in/karajsch" target="_new"><i
+                                class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> LinkedIn</a></p>
+                </div>
+
+            </section>
+            <section class="container-fluid col-7 sm-col-7 align-top p-4">
+                <h1>About Me</h1>
+                <P>
+                    I'm a student web developer at the UPenn LPS coding boot camp in Philadelphia. I'm obsessed
+                    with
+                    all things art and design and love
+                    playing with modular synthesizers, reading sci-fi novels, collecting houseplants, 35mm photography,
+                    and
+                    adding to my ever growing stash of artist books/zines/graphic novels.
+                    I
+                    have a BFA in Film/Cinema Studies from Pratt Institute and an MFA in Digital & Interdisciplinary
+                    Practice from City University of New York. I draw and do yoga every single day. In learning about
+                    code,
+                    I hope to interact with
+                    the technology that surrounds me in a more meaningful way.
+                </p>
+                <p>
+                    <section class="container-quote p-4">
+                        "Most creativity is a transition from one context into another where things are more surprising.
+                        There’s
+                        an element of surprise, and especially in science, there is often laughter that goes along with
+                        the
+                        “Aha.” Art also has this element. Our job is to remind us that there are more contexts than the
+                        one
+                        that
+                        we’re in — the one that we think is reality." - Alan Kay
+                    </section>
+                </p>
             </section>
         </section>
     </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
 
-
-</body>
-
-<p></p>
-
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 
 </html>
